@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="StudentNest - safe, affordable student accommodation in Freetown, Sierra Leone.">
+<title>Listings | StudentNest</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><strong>StudentNest</strong><small>Find your home. Focus on your future.</small></a>
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav class="nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="listings.html" aria-current=page>Listings</a><a href="contact.html">Contact</a><a href="login.html">Login / Sign Up</a></nav>
+  </div>
+</header>
+<main id="main">
+<section class="wrap"><h1>Accommodation Listings</h1><p class="lead">Filter by location, room type and price.</p>
+<form class="search" id="filter" aria-label="Filter listings">
+<label>Location<select id="f-loc"><option value="">All</option><option>Freetown</option></select></label>
+<label>Room type<select id="f-type"><option value="">All</option><option>Single Room</option><option>Shared Room</option></select></label>
+<label>Max price<select id="f-price"><option value="">Any</option><option value="1000">Le1,000</option><option value="1500">Le1,500</option><option value="2500">Le2,500</option></select></label></form>
+<p id="count" class="muted" aria-live="polite"></p><div class="grid" id="results"><article class="card" data-location="Freetown" data-type="Single Room" data-price="1000">
+  <img src="./images/front.view.jpg" alt="HillSide Residence, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>HillSide Residence</h3><p class="muted">Single Room &middot; Mount Aureol hillside, 2.0 km from campus</p>
+  <p class="row"><strong>Le1,000/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=hillside">View details</a></div></article><article class="card" data-location="Freetown" data-type="Shared Room" data-price="1500">
+  <img src="./images/college_view.jpj.jpg" alt="Campus View Hostel, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>Campus View Hostel</h3><p class="muted">Shared Room &middot; Opposite the university gate, 0.3 km</p>
+  <p class="row"><strong>Le1,500/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=campus">View details</a></div></article><article class="card" data-location="Freetown" data-type="Single Room" data-price="2000">
+  <img src="./images/index.jpg" alt="Embassy View, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>Embassy View</h3><p class="muted">Single Room &middot; Hill Station area, 3.1 km from campus</p>
+  <p class="row"><strong>Le2,000/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=embassy">View details</a></div></article><article class="card" data-location="Freetown" data-type="Single Room" data-price="1200">
+  <img src="./images/additional_image.jpg" alt="Sunrise Residence, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>Sunrise Residence</h3><p class="muted">Single Room &middot; Approx. 1.2 km from campus</p>
+  <p class="row"><strong>Le1,200/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=sunrise">View details</a></div></article><article class="card" data-location="Freetown" data-type="Shared Room" data-price="900">
+  <img src="./images/eden_park.jpg" alt="Lumley Lodge, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>Lumley Lodge</h3><p class="muted">Shared Room &middot; Lumley, 4.5 km from campus</p>
+  <p class="row"><strong>Le900/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=lumley">View details</a></div></article><article class="card" data-location="Freetown" data-type="Single Room" data-price="2400">
+  <img src="./images/index_2.jpg" alt="Aberdeen Court, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>Aberdeen Court</h3><p class="muted">Single Room &middot; Aberdeen, 5.0 km from campus</p>
+  <p class="row"><strong>Le2,400/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=aberdeen">View details</a></div></article></div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap bar"><span>StudentNest &copy; 2026</span><span>Safe &bull; Affordable &bull; Student-focused</span></div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

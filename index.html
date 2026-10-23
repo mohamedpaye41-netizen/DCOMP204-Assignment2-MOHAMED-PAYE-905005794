@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="StudentNest - safe, affordable student accommodation in Freetown, Sierra Leone.">
+<title>Home | StudentNest</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><strong>StudentNest</strong><small>Find your home. Focus on your future.</small></a>
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav class="nav" aria-label="Main navigation"><a href="index.html" aria-current=page>Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="listings.html">Listings</a><a href="contact.html">Contact</a><a href="login.html">Login / Sign Up</a></nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero"><div class="wrap hero-in"><div><h1>Find Your Home.<br>Focus on Your Future.</h1><p class="lead">Discover safe, affordable and convenient student accommodation in Freetown, Sierra Leone.</p><a class="btn" href="listings.html">Browse rooms</a></div>
+<img src="./images/beautiful-gardens.jpg" alt="Freetown hills and the Cotton Tree" width="800" height="500"></div></section>
+<section class="wrap"><form class="search" action="listings.html" aria-label="Search rooms">
+<label>Location<select name="loc"><option>Freetown</option><option>Lumley</option></select></label>
+<label>Room type<select name="type"><option>Single Room</option><option>Shared Room</option></select></label>
+<label>Price<select name="price"><option value="2500">Under Le2,500/sem</option><option value="1500">Under Le1,500/sem</option><option value="1000">Under Le1,000/sem</option></select></label>
+<button class="btn" type="submit">Search</button></form></section>
+<section class="wrap"><h2>Featured Rooms</h2><div class="grid"><article class="card" data-location="Freetown" data-type="Single Room" data-price="1000">
+  <img src="./images/front.view.jpg" alt="HillSide Residence, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>HillSide Residence</h3><p class="muted">Single Room &middot; Mount Aureol hillside, 2.0 km from campus</p>
+  <p class="row"><strong>Le1,000/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=hillside">View details</a></div></article><article class="card" data-location="Freetown" data-type="Shared Room" data-price="1500">
+  <img src="./images/college_view.jpj.jpg" alt="Campus View Hostel, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>Campus View Hostel</h3><p class="muted">Shared Room &middot; Opposite the university gate, 0.3 km</p>
+  <p class="row"><strong>Le1,500/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=campus">View details</a></div></article><article class="card" data-location="Freetown" data-type="Single Room" data-price="2000">
+  <img src="./images/index.jpg" alt="Embassy View, Freetown" loading="lazy" width="800" height="500">
+  <div class="card-body"><h3>Embassy View</h3><p class="muted">Single Room &middot; Hill Station area, 3.1 km from campus</p>
+  <p class="row"><strong>Le2,000/sem</strong><span class="badge">&#10003; Verified</span></p>
+  <a class="btn btn-sm" href="room-details.html?room=embassy">View details</a></div></article></div>
+<ul class="ticks"><li>Verified Listings</li><li>Affordable Prices</li><li>Easy Booking</li><li>Student Support</li></ul></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap bar"><span>StudentNest &copy; 2026</span><span>Safe &bull; Affordable &bull; Student-focused</span></div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
